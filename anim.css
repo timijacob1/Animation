@@ -1,0 +1,158 @@
+body{
+    background-image: url(multimedia/wp2711824.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* #city{
+    position: absolute;
+    margin: 0 0 0 -100px;
+    animation-name: city;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;    
+}
+#city2{
+    position: absolute;
+    margin: 0 0 0 800px;
+    animation-name: city2;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;    
+} */
+#car{
+    position: absolute;
+    margin: 465px 0 0 810px;
+    animation-name: car;
+    animation-duration:6s;
+    animation-iteration-count: infinite;
+}
+#car2{
+    position: absolute;
+    margin: 510px 0 0 0;
+    animation-name: car2;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+}
+#tyre{
+    position: absolute;
+    margin: 560px 0 0 810px;
+    /* transform: rotate(360deg);  */
+    animation-name: tyre;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;          
+}
+#tyre2{
+    position: absolute;
+    margin: 560px 0 0 995px;
+    animation-name: tyre2;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+    /* animation-direction: alternate; */      
+}
+#wheel{
+    position: absolute;
+    margin: 560px 0 0 -20px;
+    animation-name: wheel;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+}
+#wheel2{
+    position: absolute;
+    margin: 568px 0 0 215px ;
+    animation-name: wheel2;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+}
+#plane{
+    position: absolute;
+    margin: -80px 0 0 0;
+    animation-name: plane;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes tyre{
+    0%{
+        transform: translate(-0px) rotate(-0deg);
+    }
+    100%{
+        transform: translate(-1400px) rotate(-360deg);
+    }
+}
+@keyframes car{
+    0%{
+        transform: translate(-0px);
+    }
+100%{
+        transform: translate(-1400px);
+    }
+}
+@keyframes tyre2{
+    /* 0%{
+        transform: rotate(-0deg);
+    }
+    100%{
+        transform: rotate(-360deg);
+    } */
+    0%{
+        transform: translate(-0px) rotate(-0deg); 
+    }
+    100%{
+        transform: translate(-1400px)  rotate(-360deg);
+    }   
+}
+@keyframes car2{
+    0%{
+        transform: translate(0px);
+    }
+    100%{
+        transform: translate(1400px);
+    }
+}
+@keyframes wheel{
+    0%{
+        transform: translate(0px) rotate(0deg);
+    }
+    100%{
+        transform: translate(1400px) rotate(360deg);
+    }
+}
+@keyframes wheel2{
+    0%{
+        transform: translate(0px) rotate(0deg);
+    }
+    100%{
+        transform: translate(1400px) rotate(360deg);
+    }  
+}
+@keyframes city{
+    0%{
+        transform: translate(0px);
+    }
+    100%{
+        transform: translate(50px);
+    }
+}
+@keyframes city2{
+    0%{
+        transform: translate(-0px);
+    }
+    100%{
+        transform: translate(-10px);
+    }
+}
+@keyframes plane{
+    0%{
+        transform: translate(0px);
+    }
+    100%{
+        transform: translate(1400px);
+    }
+}
+/* @keyframes body{
+    0%{
+        transform: translate(0px);
+    }
+    100%{
+        transform: translate(200px);
+    }
+} */
